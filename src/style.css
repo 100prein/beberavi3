@@ -322,6 +322,7 @@ a:hover
         box-sizing: border-box;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
+        justify-content: space-between;
       }
 
       #nav-list1.show {
@@ -361,6 +362,7 @@ a:hover
         transform: translateX(0%);
         right: auto;
         left: 0;
+        line-height: 100px;
     }
 
     /*Collection Section*/
@@ -404,6 +406,9 @@ a:hover
     .intro_img {
         background-size: contain;
         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
     }
 
 
