@@ -44,6 +44,12 @@ html {
     font-weight: 600;
 }
 
+.nav_list_items3 {
+    display: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .nav_list_items {
     padding: 0px;
     font-size: 20px;
@@ -278,6 +284,18 @@ a:hover
     .nav_list_items2 {
         display: none;
     }
+    .nav_list_items3 {
+        display: block;
+        font-size: 100px;
+        font-weight: 300;
+        padding: 40px 0px 40px 0px;
+    }
+    .nav_list_items {
+        display: block;
+        font-size: 90px;
+        font-weight: 300;
+        padding: 40px 0px 40px 0px;
+    }
     .nav {
         display: flex;
         flex-direction: column-reverse;
@@ -289,7 +307,6 @@ a:hover
         display:none;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
-        
     }
 
     .menu {
@@ -303,7 +320,7 @@ a:hover
         right: 0;
         background-color: #DBEBCC;
         color: #DBEBCC;
-        width: 300px;
+        width: 900px;
         height: 100%;
         padding: 20px;
         box-sizing: border-box;
@@ -322,7 +339,6 @@ a:hover
         box-sizing: border-box;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
-        justify-content: space-between;
       }
 
       #nav-list1.show {
