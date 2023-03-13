@@ -35,7 +35,7 @@ html {
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 50px 10px;
 }
 
 .nav_list_items2 {
@@ -91,6 +91,7 @@ nav:hover li a {
     font-weight: 300;
     font-size: 100px;
     align-items: center;
+    padding: 70px;
 }
 
 .topnav .icon {
@@ -110,9 +111,13 @@ nav:hover li a {
     background-image: url("./hands_sewing.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -122,8 +127,9 @@ nav:hover li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -131,9 +137,10 @@ nav:hover li a {
     background-image: url("./shop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -184,7 +191,7 @@ footer{
 
 .list_header_footer {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -420,14 +427,17 @@ a:hover
         margin: 0%;
     }
     .intro_img {
-        background-size: contain;
+        background-image: url("./hands_sewing.jpeg");
+        background-size: fill;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-    
+        background-position: center center;
+        height: 1200px;
     }
-
-
+    /*.intro_img_collections {
+        height: 1200px;
+    }*/
     footer {
         display: inline;
         height: 3000px;
@@ -459,8 +469,12 @@ a:hover
     }
 
     .pp {
-        margin: 10px;
+        margin: 0%;
     }
+    .pp_table {
+        width: 550px;
+    }
+    
 }
 
 /*Career Page*/
@@ -469,6 +483,7 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
     height: 500px;
     text-align: center;
@@ -479,8 +494,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -489,8 +505,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -499,8 +516,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color:white;
 }
@@ -516,8 +534,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color: brown;
 }
@@ -526,8 +545,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color: white;
 }
@@ -536,8 +556,9 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
-    height: 500px;
+    height: 800px;
     text-align: center;
     color: white;
 }
@@ -587,6 +608,7 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
     height: 500px;
     text-align: center;
@@ -704,6 +726,7 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
     height: 500px;
     text-align: center;
@@ -715,6 +738,7 @@ a:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     width: 100%;
     height: 500px;
     text-align: center;
