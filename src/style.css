@@ -242,14 +242,13 @@ a:hover {
 }
 
 .collection_text {
-    padding: 20px;
     font-size: 50px;
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
 }
 
 .collection_box_items {
-    width: 350px;
+    width: 390px;
     height: 500px;
     margin: 5px;
     position: cover;
@@ -258,7 +257,7 @@ a:hover {
 }
 
 .collection_box_items2 {
-    width: 350px;
+    width: 390px;
     height: 500px;
     margin: 5px;
     position: cover;
@@ -488,6 +487,13 @@ a:hover
     .intro_img_mission2 {
         display: none;
     }
+    .intro_img_press {
+        display: none;
+    }
+    iframe {
+        width: 100%;
+        height: 800px;
+    }
     footer {
         display: inline;
         height: 3000px;
@@ -523,6 +529,9 @@ a:hover
     }
     .pp_table {
         width: 550px;
+    }
+    .press_img_section {
+        display: flex;
     }
     
 }
@@ -959,3 +968,47 @@ table, th, td {
   th, td {
     border-bottom: 1px solid #ddd;
   }
+
+  /*Press or Media page*/
+
+  .intro_img_press {
+    background-image: url("./press9.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    color:white;
+}
+
+.youtube1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.press_imgs {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.press_img_section{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 20px 0px 20px 0px ;
+}
+
+.images_in_subsection {
+    padding: 10px;
+}
+
+.quality_images {
+    width: 200px;
+}
+
+
+
