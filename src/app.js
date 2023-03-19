@@ -7,31 +7,81 @@ function toggleButton() {
 
 hamburgerButton.addEventListener('click', toggleButton)
 
-let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+//slider 1
+const slider = document.querySelector('.slider');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+let currentSlide = 0;
+const slideWidth = slider.clientWidth;
+const maxSlides = 3;
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+prevBtn.addEventListener('click', () => {
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = maxSlides - 1;
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+  slider.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+});
+
+nextBtn.addEventListener('click', () => {
+  currentSlide++;
+  if (currentSlide >= maxSlides) {
+    currentSlide = 0;
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+  slider.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+});
+
+
+
+//slider 2
+const slider2 = document.querySelector('.slider2');
+const prevBtn2 = document.querySelector('.prev2');
+const nextBtn2 = document.querySelector('.next2');
+
+let currentSlide2 = 0;
+const slideWidth2 = slider2.clientWidth;
+const maxSlides2 = 1;
+
+prevBtn.addEventListener('click', () => {
+  currentSlide2--;
+  if (currentSlide2 < 0) {
+    currentSlide2 = maxSlides2 - 1;
+  }
+  slider2.style.transform = `translateX(-${currentSlide2 * slideWidth2}px)`;
+});
+
+nextBtn.addEventListener('click', () => {
+  currentSlide2++;
+  if (currentSlide2 >= maxSlides2) {
+    currentSlide2 = 0;
+  }
+  slider2.style.transform = `translateX(-${currentSlide2 * slideWidth2}px)`;
+});
+
+//slider 3
+const slider3 = document.querySelector('.slider3');
+const prevBtn3 = document.querySelector('.prev3');
+const nextBtn3= document.querySelector('.next3');
+
+let currentSlide3 = 0;
+const slideWidth3 = slider3.clientWidth;
+const maxSlides3 = 1;
+
+prevBtn3.addEventListener('click', () => {
+  currentSlide3--;
+  if (currentSlide3 < 0) {
+    currentSlide3 = maxSlides3 - 1;
+  }
+  slider3.style.transform = `translateX(-${currentSlide3 * slideWidth3}px)`;
+});
+
+nextBtn3.addEventListener('click', () => {
+  currentSlide3++;
+  if (currentSlide3 >= maxSlides3) {
+    currentSlide3 = 0;
+  }
+  slider3.style.transform = `translateX(-${currentSlide3 * slideWidth}px)`;
+});
+

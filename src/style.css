@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #ABB8A0;
+    background-color: #FDFFE0;
 }
 
 /*Navigation Section*/
@@ -24,7 +24,7 @@ html {
 .logo {
     position:absolute;
     margin-top: -140px;
-    background-color: #ABB8A0;
+    background-color: #FDFFE0;
     padding: 5px;
     border-radius: 10px;
 }
@@ -92,6 +92,7 @@ nav:hover li a {
     font-size: 100px;
     align-items: center;
     padding: 70px;
+    
 }
 
 .topnav .icon {
@@ -135,15 +136,23 @@ nav:hover li a {
     color:white;
 }
 .intro_img_collections {
-    background-image: url("./shop.jpg");
+    background-image: url("./whitw_pink_red.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
     width: 100%;
     height: 800px;
     text-align: center;
     color:white;
+}
+.signature3 {
+    color: pink;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    align-items: center;
+    padding: 70px;
 }
 
 .intro_subsection {
@@ -226,6 +235,10 @@ a:hover {
 
 .collection_box {
     display: flex;
+    justify-content: center;
+    /*display: flex;
+    padding: 20px;
+    align-self: center;*/
 }
 
 .collection_text {
@@ -239,12 +252,18 @@ a:hover {
     width: 350px;
     height: 500px;
     margin: 5px;
+    position: cover;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 
 .collection_box_items2 {
-    width: 503px;
-    height: 526px;
+    width: 350px;
+    height: 500px;
     margin: 5px;
+    position: cover;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 
 .link_button2 {
@@ -307,7 +326,7 @@ a:hover
     .nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #ABB8A0;
+        background-color: #FDFFE0;
         margin: 0px;
         /*height: 100px;*/
     }
@@ -319,15 +338,15 @@ a:hover
 
     .menu {
         margin: 0px;
-        background-color: #ABB8A0;
+        background-color: #FDFFE0;
     }
 
     #nav-list {
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #DBEBCC;
-        color: #DBEBCC;
+        background-color: #FDFFE0;
+        color: #FDFFE0;
         width: 900px;
         height: 100%;
         padding: 20px;
@@ -339,8 +358,8 @@ a:hover
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #DBEBCC;
-        color: #DBEBCC;
+        background-color: #FDFFE0;
+        color: #FDFFE0;
         width: 300px;
         height: 100%;
         padding: 20px;
@@ -353,14 +372,14 @@ a:hover
         transform: translateX(0%);
         right: auto;
         left: 0;
-        background-color: #DBEBCC;
+        background-color: #FDFFE0;
       }
       
       #nav-list.show {
         transform: translateX(0%);
         right: auto;
         left: 0;
-        background-color: #DBEBCC;
+        background-color: #FDFFE0;
       }
       
 
@@ -369,11 +388,11 @@ a:hover
     }
 
     .hamburger {
-        background-color: #ABB8A0;
+        background-color: #FDFFE0;
         display: block;
         border: 0;
         color: black;
-        font-size: 50px;
+        font-size: 100px;
         margin: 5px;
         align-self: flex-end;
     }
@@ -381,7 +400,7 @@ a:hover
     
     ul.show {
         display: block;
-        background-color: #ABB8A0;
+        background-color: #FDFFE0;
         height: 500px;
         transform: translateX(0%);
         right: auto;
@@ -392,7 +411,7 @@ a:hover
     /*Collection Section*/
     .signature {
         font-size: 100px;
-        color: white;
+        color: black;
     }
     .collection_section {
         align-content: center;
@@ -428,8 +447,7 @@ a:hover
         margin: 0%;
     }
     .mobile_img_index {
-        display: block;
-        width: 100%;
+        display: inline;
     }
     .img_mobile {
         width: 100%;
@@ -673,15 +691,136 @@ a:hover
 }
 
 /*Collection Page*/
-.collection_title{
-    height: 250px;
-    border: white solid 5px;
+.collection_text5 {
+    padding: 20px;
+    font-size: 50px;
     text-align: center;
-    align-content: center;
-    padding: 100px
+    font-family: 'Dancing Script', sans-serif;
 }
 
-/*Work with Us or Careers page*/
+.slider-container {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden; /* to hide slides that go outside the container */
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: flex-start;
+    
+  }
+
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+  }
+
+  .slider-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .slider-nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .slider-container2 {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  .slider2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+  }
+  
+  .slider-nav2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider-nav2 button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .slider-container3 {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  .slider3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+  }
+  
+  .slider-nav3 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider-nav3 button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+
+/*Work with Us */
 
 .s2{
 	background-color: var(--secondaryColor);
