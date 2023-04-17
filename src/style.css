@@ -589,7 +589,6 @@ a:hover
 
 /*Brand Partners Page*/
 
-
 .intro_img_partners {
     background-image: url("./partners.jpg");
     background-repeat: no-repeat;
@@ -655,7 +654,10 @@ a:hover
     width: 270px;
     height: 150px;
     margin: 30px;
-    
+}
+.brands_sponsors {
+    padding: 0px;
+    background-color: white;
 }
 
 /*School Blazer Page*/
@@ -1012,5 +1014,15 @@ table, th, td {
     width: 200px;
 }
 
+/*Shiiping information Page*/
+
+.shipping_info {
+    margin: 100px;
+    line-height: 40px;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 
 
