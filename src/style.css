@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #FDFFE0;
+    background-color: white;
 }
 
 /*Navigation Section*/
@@ -24,7 +24,7 @@ html {
 .logo {
     position:absolute;
     margin-top: -140px;
-    background-color: #FDFFE0;
+    background-color: white;
     padding: 5px;
     border-radius: 10px;
 }
@@ -36,18 +36,23 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 50px 10px;
+    background-color: #DBEBCC;
+
 }
 
 .nav_list_items2 {
     padding: 20px;
     font-size: 25px;
     font-weight: 600;
+    background-color: #DBEBCC;
+
 }
 
 .nav_list_items3 {
     display: none;
     font-size: 25px;
     font-weight: 600;
+    
 }
 
 .nav_list_items {
@@ -136,7 +141,7 @@ nav:hover li a {
     color:white;
 }
 .intro_img_collections {
-    background-image: url("./whitw_pink_red.png");
+    background-image: url("./collection_page_img.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
