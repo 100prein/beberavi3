@@ -100,6 +100,14 @@ nav:hover li a {
     
 }
 
+.mission_section_text3 {
+    margin: 20px;
+    font-size: 30px;
+    align-content: center;
+    font-weight: 400;
+    font-family: 'Redressed';
+}
+
 .topnav .icon {
     display: none;
   }
@@ -114,7 +122,7 @@ nav:hover li a {
 }*/
 
 .intro_img {
-    background-image: url("./hands_sewing.jpeg");
+    background-image: url("./village2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -263,6 +271,15 @@ a:hover {
 
 .collection_box_items2 {
     width: 390px;
+    height: 500px;
+    margin: 5px;
+    position: cover;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+.collection_box_items4 {
+    width: 790px;
     height: 500px;
     margin: 5px;
     position: cover;
