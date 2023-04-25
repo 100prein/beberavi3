@@ -15,7 +15,7 @@ const nextBtn = document.querySelector('.next');
 
 let currentSlide = 0;
 const slideWidth = slider.clientWidth;
-const maxSlides = 3;
+const maxSlides = 2;
 
 prevBtn.addEventListener('click', () => {
   currentSlide--;
@@ -36,13 +36,13 @@ nextBtn.addEventListener('click', () => {
 
 
 //slider 2
-const slider2 = document.querySelector('.slider2');
+/*const slider2 = document.querySelector('.slider2');
 const prevBtn2 = document.querySelector('.prev2');
 const nextBtn2 = document.querySelector('.next2');
 
 let currentSlide2 = 0;
 const slideWidth2 = slider2.clientWidth;
-const maxSlides2 = 1;
+const maxSlides2 = 3;
 
 prevBtn.addEventListener('click', () => {
   currentSlide2--;
@@ -58,7 +58,7 @@ nextBtn.addEventListener('click', () => {
     currentSlide2 = 0;
   }
   slider2.style.transform = `translateX(-${currentSlide2 * slideWidth2}px)`;
-});
+});*/
 
 //slider 3
 const slider3 = document.querySelector('.slider3');
@@ -67,7 +67,7 @@ const nextBtn3= document.querySelector('.next3');
 
 let currentSlide3 = 0;
 const slideWidth3 = slider3.clientWidth;
-const maxSlides3 = 1;
+const maxSlides3 = 3;
 
 prevBtn3.addEventListener('click', () => {
   currentSlide3--;

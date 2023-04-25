@@ -430,6 +430,10 @@ a:hover
     }
 
     /*Collection Section*/
+    .img_slides_2 {
+        width: 200px;
+        height: 100px;
+    }
     .signature {
         font-size: 100px;
         color: black;
@@ -554,6 +558,14 @@ a:hover
     }
     .press_img_section {
         display: flex;
+    }
+    .mission_img {
+        width: 300px;
+        height: 223px;
+    }
+    .mission_section_text3 {
+        width: 800px;
+        font-size: 50px;
     }
     
 }
@@ -908,9 +920,15 @@ a:hover
 }
 /*Our mission*/
 
+.mission_img {
+    background-image: url("./src/mission_possible.jpeg");
+    width:813px ;
+    height:523px;
+}
+
 .mission_section {
     margin: 20px;
-    display: flex;
+    display: block;
 }
 
 .mission_section_text1 {
