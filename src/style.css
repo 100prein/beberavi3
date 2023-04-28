@@ -938,7 +938,12 @@ a:hover
 
 .mission_section {
     margin: 20px;
-    display: block;
+    display: flex;
+    align-items: center; /* align items vertically */
+    flex-direction: row;
+}
+.mission_section_img2 {
+    padding: 0px;
 }
 
 .mission_section_text1 {
