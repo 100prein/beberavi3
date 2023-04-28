@@ -91,6 +91,8 @@ nav:hover li a {
 
 /*Introduction Section*/
 
+
+
 .signature {
     font-family: 'Dancing Script', sans-serif;
     font-weight: 300;
@@ -100,12 +102,25 @@ nav:hover li a {
     
 }
 
+.mission_img2 {
+    width: 50%;
+    height:523px;
+}
+
+.mission_section2 {
+    margin: 20px;
+    display: flex;
+    align-items: center; /* align items vertically */
+}
+
 .mission_section_text3 {
     margin: 20px;
     font-size: 30px;
     align-content: center;
     font-weight: 400;
     font-family: 'Redressed';
+    width: 50%; /* adjust text size */
+    padding: 0 1em; /* add padding for spacing */
 }
 
 .topnav .icon {
