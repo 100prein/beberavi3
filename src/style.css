@@ -104,13 +104,14 @@ nav:hover li a {
 
 .mission_img2 {
     width: 50%;
-    height:523px;
+    height: auto;
 }
 
 .mission_section2 {
     margin: 20px;
     display: flex;
     align-items: center; /* align items vertically */
+    flex-direction: row;
 }
 
 .mission_section_text3 {
@@ -574,14 +575,8 @@ a:hover
     .press_img_section {
         display: flex;
     }
-    .mission_img {
-        width: 300px;
-        height: 223px;
-    }
-    .mission_section_text3 {
-        width: 800px;
-        font-size: 50px;
-    }
+    
+    
     
 }
 
