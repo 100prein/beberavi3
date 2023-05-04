@@ -1054,6 +1054,16 @@ table, th, td {
     padding: 10px;
 }
 
+.wwd_img {
+    width: 350px;
+    height: 600px;
+}
+
+.seattle_img {
+    width: 350px;
+    height: 600px;
+}
+
 .press_img_section{
     display: flex;
     justify-content: center;
